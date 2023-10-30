@@ -14,7 +14,7 @@ ul{
   display: flex;
   gap: 20px;
   list-style: none;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 25px;
 }
 .nav-bar{
@@ -30,6 +30,7 @@ ul{
   padding: 10px;
   gap: 10px;
   flex-direction: column;
+  font-weight: 700;
 }
 
 .kryptonite{
