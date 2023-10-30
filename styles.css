@@ -55,3 +55,20 @@ input{
   height: 30px;
   border: 2px solid green;
 }
+
+#home-page-massage{
+  font-weight: bolder;
+  font-size: 30px;
+  color: orange;
+}
+
+.meow-rental-images,.odin-salt-images,.robo-game-images{
+  width: 75%;
+  padding: 15px;
+  
+}
+
+.meow-rental,.robo-game,.odin-salt{
+  text-align: center;
+  box-shadow: 0 0 10px green;
+}
