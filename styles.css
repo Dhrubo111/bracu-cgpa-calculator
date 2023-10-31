@@ -16,6 +16,7 @@ ul{
   list-style: none;
   font-weight: 900;
   font-size: 25px;
+  flex-wrap: wrap;
 }
 .nav-bar{
   display: flex;
@@ -58,12 +59,13 @@ input{
   border: 2px solid green;
 }
 
-#home-page-massage{
+#home-page-massage , #ranking-page-massage{
   font-weight: bolder;
   font-size: 30px;
   color: black;
   background-color:#7D8C76;
   padding: 10px;
+  box-shadow: 0 0 10px green;
 }
 
 .meow-rental-images,.odin-salt-images,.robo-game-images{
@@ -108,4 +110,27 @@ input{
   display: flex;
   justify-content: center;
   max-width: 300px;
+}
+
+#green-fire{
+
+  width: 90%;
+  padding: 20px;
+}
+
+.rank-light{
+  box-shadow: 0 0 10px green;
+  width: 250;
+}
+
+#comment{
+  box-shadow: 0 0 10px green;
+  padding: 10px;
+  color: blue;
+}
+
+#a-standing {
+  box-shadow: 0 0 10px green;
+  padding: 10px;
+  color: red;
 }
