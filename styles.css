@@ -31,6 +31,7 @@ ul{
   gap: 10px;
   flex-direction: column;
   font-weight: 700;
+  align-items: center;
 }
 
 .kryptonite{
@@ -60,7 +61,9 @@ input{
 #home-page-massage{
   font-weight: bolder;
   font-size: 30px;
-  color: orange;
+  color: black;
+  background-color:#7D8C76;
+  padding: 10px;
 }
 
 .meow-rental-images,.odin-salt-images,.robo-game-images{
@@ -72,4 +75,37 @@ input{
 .meow-rental,.robo-game,.odin-salt{
   text-align: center;
   box-shadow: 0 0 10px green;
+}
+
+.buttons{
+  text-align: center;
+  box-shadow: 0 0 10px green;
+}
+
+.green , .red{
+  width: 110px;
+  
+  
+}
+
+.green{
+  box-shadow: 0 0 10px rgb(1, 41, 1);
+  background-color: #1BD20E;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 5px;
+  
+}
+
+.red{
+  box-shadow: 0 0 10px  rgb(1, 41, 1);
+  background-color: #D20E4C;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.memes{
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
 }
