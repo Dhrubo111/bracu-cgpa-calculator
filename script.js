@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     homeLinkMassage.style.boxShadow = "0 0 10px green"
     homeLinkMassage.style.padding = "10px"
     homeLinkMassage.style.backgroundColor = "#7D8C76"
-    homeLinkMassage.textContent = `Your CGPA is around ${cgpa}`  
+    homeLinkMassage.textContent = `Your CGPA is ${cgpa}`  
     if (cgpa >= 0 && cgpa <=2){
       lowImage.style.display="block";
       lowImage.style.width = "75%";
