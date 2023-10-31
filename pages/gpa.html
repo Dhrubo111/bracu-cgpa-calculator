@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GPA</title>
   <link rel="stylesheet" href="../styles.css">
+  <script src="../js/gpa.js"></script>
 </head>
 <body>
   <div class="nav-bar">
@@ -12,13 +13,35 @@
     <ul>
       <li><a href="../index.html" id="home-page">Home</a></li>
       <li><a href="../pages/services.html">Services</a></li>
-      <li><a href="#">GPA</a></li>
+      <li><a href="#" id="gpa-page">GPA</a></li>
       <li><a href="../pages/ranking.html">Rank</a></li>
     </ul>
   </div>
   <div class="content">
     <div class="massage">
       <em>Green man <strong class="kryptonite">will</strong> predict your <strong class="kryptonite">GPA</strong> </em>
+    </div>
+    <div class="memes">
+      <img src="../images/cg1.gif" alt="for low level cgpa" id="low" style="display: none;">
+    <img src="../images/cg2.gif" alt="for mid level cgpa" id="mid" style="display: none;">
+    <img src="../images/cg3.gif" alt="for high level cgpa" id="high" style="display: none;">
+    </div>
+    <div id="gpa-page-massage" style="display: none;">
+    You Are Currently on the GPA Page
+    
+    </div>
+    <div class="user-input">
+
+      Enter how many course you have
+   
+      <input type="text" placeholder="number of course" id="number-of-cources">
+      Enter CGPA of every course you have taken this semester (Format: 3.3,4,4,3)
+      <input type="text" placeholder="CGPA of every course this semester" id="cgs">
+    </div>
+    <div class="buttons">
+      <button class="green" id="green-button">=</button>
+      <a href="../pages/gpa.html"><button class="red">AC</button></a>
+      
     </div>
   </div>
 </body>
